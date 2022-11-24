@@ -26,8 +26,8 @@ main{
 }
 
 #foto{
-    border: 0px;
-    border-radius: 40%;
+    border: 1.5px solid green;
+    border-radius: 50%;
 }
 
 .nome{

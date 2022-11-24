@@ -5,39 +5,6 @@
         opacity: 1;
     }
 
-    .header-links{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        position: absolute;
-        top: 10vh;
-        right: 0;
-        width: 40vw;
-        height: 100vh;
-        background-color: rgba(61, 60, 60, 0.082);
-        border-left: 2px solid rgba(44, 43, 43, 0.548);
-        backdrop-filter: blur(5px);
-        flex-direction: column;
-        transform: translateX(100%);
-        transition: .45s ease-in-out;
-    }
-
-    .header-links-2{
-        display: none;
-    }
-
-    .header-logo{
-        width: 45%;
-    }
-
-    .header-div2{
-        width: 45%;
-    }
-
-    .menu-h{
-        width: 5%;
-    }
-
     .main-div22{
         width: 100%;
         height: 120vh;
@@ -46,12 +13,6 @@
         align-items: center;
         justify-content: center;
         gap: 5vw;
-    }
-}
-
-@media (min-width: 1320px){
-    .header-links{
-        display: none;
     }
 }
 

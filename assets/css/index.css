@@ -18,6 +18,35 @@ header{
     background-color: rgb(43, 43, 44);
 }
 
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 40vw;
+    height: 100vh;
+    background-color: rgba(61, 60, 60, 0.082);
+    border-left: 2px solid rgba(44, 43, 43, 0.548);
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: .45s ease-in-out;
+}
+
+.header-logo{
+    width: 47%;
+}
+
+.header-div2{
+    width: 47%;
+}
+
+.menu-h{
+    width: 1%;
+}
+
 .header-div2{
     width: 37.5%;
     height: 10vh;
@@ -51,10 +80,6 @@ label{
     display: block;
     width: 28px;
     height: 20px;
-}
-
-span{
-    opacity: 0;
 }
 
 label span{
